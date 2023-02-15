@@ -23,5 +23,5 @@ This program is designed to use the HMMer function 'press' to create the finishe
 #### Analysis_of_log.py
   This program contains a collection of functions to among others perform basic analysis of a CV log. It takes the log file output from CV_LOO.py and evaluates the results by producing a confusion matrix and five different performance evaluation matrices, which are illustrated in a histogram.
 
-####thresholds.py
+#### thresholds.py
 The program finds all the thresholds given a log_file. With the format outputted from CV_LOO.py. It saves the resulting thresholds json format.
