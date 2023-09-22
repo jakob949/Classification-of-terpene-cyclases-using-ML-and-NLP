@@ -25,3 +25,9 @@ This program is designed to use the HMMer function 'press' to create the finishe
 
 #### thresholds.py
 The program finds all the thresholds given a log_file. With the format outputted from CV_LOO.py. It saves the resulting thresholds json format.
+
+#### ESM.py, ESM_CV.py, cluster_embeddings.py
+The ESM.py script uses the Evolutionary Scale Modeling (ESM) 2 encoder-only transformer model to classify protein sequences of terpene cyclases. This NLP approach outperforms the previous state-of-the-art, which used profile Hidden Markov models for the task.
+ESM_CV.py employs cross-validation to further validate the results of the NLP-transformer classifier.
+
+cluster_embeddings.py extracts higher-dimensional embeddings from ESM2 and subsequently creates a PCA plot to visualize the characteristics of different terpene cyclases.
